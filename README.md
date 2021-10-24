@@ -5,8 +5,8 @@ LaTeX Template for SEU Circuit Experiment Report - 东南大学电路实验 LaTe
 
 ### Basic Information - 基本情况
 - Version 1.1 (2021/10/24)
-- The template basically has a LaTeX class `TVJ-Circuit-Report` in file `TVJ-Circuit-Report.cls`.
-  > 模板主要包括 `TVJ-Circuit-Report.cls` 中的 `TVJ-Circuit-Report` 类。
+- The template basically has a LaTeX class `SEU-Circuit-Report` in file `SEU-Circuit-Report.cls`.
+  > 模板主要包括 `SEU-Circuit-Report.cls` 中的 `SEU-Circuit-Report` 类。
 
 ### Compilation - 编译环境
 - This template should be compiled with `XeLaTeX` and `Biber`(for reference).
@@ -15,14 +15,14 @@ LaTeX Template for SEU Circuit Experiment Report - 东南大学电路实验 LaTe
   > 建议使用最新版本的 LaTeX。
 
 ### Title Page - 封面页
-- To change the contents on the title page, just modify the following contents in file `TVJ-Circuit-Report.tex`.
+- To change the contents on the title page, just modify the following contents in file `SEU-Circuit-Report.tex`.
   The header on the right will also change accordingly.
-  > 修改文件 `TVJ-Circuit-Report.tex` 中的内容以改变封面页中的信息。
+  > 修改文件 `Circuit Experiment Report.tex` 中的内容以改变封面页中的信息。
   > 文档的页眉信息也会跟着改变。
 
 ```latex
 %% 使用实验报告模板类（字体大小 12pt 最适合）
-\documentclass[12pt]{TVJ-Circuit-Report}
+\documentclass[12pt]{SEU-Circuit-Report}
 
 %%%%%%%%%%%%%%%%%%%% 报告基本信息 %%%%%%%%%%%%%%%%%%%%
 \expno{3} % 实验序号
