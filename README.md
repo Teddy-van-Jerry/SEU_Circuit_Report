@@ -57,13 +57,18 @@ LaTeX Template for SEU Circuit Experiment Report - 东南大学电路实验 LaTe
 
 ### Other Information - 其他信息
 - For images inserted in Word as *Visio*, right click and Open, and export as PDF.
-  Open with Acrobat Pro and crop page to remove white margin.
+  You may use the `pdfcrop` utility provided by LaTeX.
+  Alternatively, open with Acrobat Pro and crop page to remove white margin.
   Finally export it as an `eps` file.
   > Word 版报告模板中的电路图以 *Visio* 格式内嵌，右击选择打开，
-  再导出为 PDF，可以再使用 Acrobat Pro 裁去白边框（Remove White Margin）并导出成 `eps` 格式。
+  再导出为 PDF，
+  可以使用 LaTeX 安装时候自带的 `pdfcrop` 工具，
+  或者可以再使用 Acrobat Pro 裁去白边框（Remove White Margin）并导出成 `eps` 格式。
 - To insert vector graph of Multisim, copy contents into Word and open as a zip file.
   Find `emf` file in `word/media`, convert it into `eps` file on https://cloudconvert.com/emf-to-eps or https://www.aconvert.com/image/emf-to-eps.
+  If you use macOS, you can directly the picture to PDF format.
   > 在报告中插入 Multisim 矢量图需要先将 Multisim 选中内容复制到 Word，再将 Word 当作压缩包打开，在 `word/media` 中找到对应的 `emf` 图片，在 https://cloudconvert.com/emf-to-eps 或 https://www.aconvert.com/image/emf-to-eps 中转换成 `eps` 即可插入。
+  如果你使用 macOS，Word 中可以直接另存图片为 PDF。
 
 ## License - 开源许可证
 [MIT License](LICENSE)
